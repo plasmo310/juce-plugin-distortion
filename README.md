@@ -1,7 +1,7 @@
 # 渡邉ディストーション
 * オリジナルのDTM用ディストーションプラグインです。
 * 「Gain」で歪み量を調整、「Special」をONにすると歪み方が変化(ブースト)します。
-  <img width=400 src="https://github.com/plasmo310/juce-plugin-distortion/assets/77447256/c8c75c93-c65c-4ba1-bb00-349e2756ae6a"/>
+  <img width=400 src="ReadMeContents/watanabe_distortion.png"/>
 
 ## 実装内容
 
@@ -36,7 +36,6 @@
     }
     ```
   * 「Special」チェックボックスをONにした場合には、$`g(x)=\tanh{\frac{5x}{2}}`$関数を使用して制御します。
-    * 通常よりも強く歪み、ハイゲイン風のエフェクトになります。
       ```
       // special effect.
       if (getParameter(Special) == 1.0f)
@@ -47,3 +46,4 @@
           
       }
       ```
+    * 通常よりも強く歪み、ハイゲイン風のエフェクトになります。<br><img width=400 src="ReadMeContents/dirtortion_func.png"/>
