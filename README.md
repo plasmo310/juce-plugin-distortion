@@ -46,4 +46,4 @@
           
       }
       ```
-    * 通常よりも強く歪み、ハイゲイン風のエフェクトになります。<br><img width=400 src="ReadMeContents/dirtortion_func.png"/>
+    * 通常よりも強く歪み、ハイゲイン風のエフェクトになります。<br><img width=400 src="ReadMeContents/distortion_func.png"/>
