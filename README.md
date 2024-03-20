@@ -5,7 +5,7 @@
 
 ## 実装内容
 
-* メインの処理は<a href="Source/PluginProcessor.cpp">/Source/PluginProcessor.cpp</a>の<code>processBlock</code>関数に記載してあります。
+* メインの処理は<a href="Source/PluginProcessor.cpp">Source/PluginProcessor.cpp</a>の<code>processBlock</code>関数に記載してあります。
 * 通常の歪みは、シンプルに指定値をthreshold値としてフィルタしています。
   ```
   // gain to threshold.
