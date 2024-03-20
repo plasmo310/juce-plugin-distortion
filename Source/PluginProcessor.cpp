@@ -176,8 +176,8 @@ void Juce_plugin_distortionAudioProcessor::processBlock (juce::AudioBuffer<float
                 channelData[buffNum] *= (gainDecibel/2.0);
                 channelData[buffNum] = tanh(5.0 * channelData[buffNum] / 2);
                 continue;
-                
             }
+
             // clipping by threshold.
             if (channelData[buffNum] >= threshold)
             {
