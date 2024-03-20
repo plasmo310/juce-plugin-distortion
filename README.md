@@ -1,7 +1,7 @@
 # 渡邉ディストーション
 * オリジナルのDTM用ディストーションプラグインです。
 * 「Gain」で歪み量を調整、「Special」をONにすると歪み方が変化(ブースト)します。
-  <img width=400 src="ReadMeContents/watanabe_distortion.png"/>
+<img width=400 src="ReadMeContents/watanabe_distortion.png"/>
 
 ## 実装内容
 
